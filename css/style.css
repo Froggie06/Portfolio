@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* ////////////////////// */
+/* Custom Properties */
+/* ///////////////////// */
+:root {
+    --color-text:#2c2a29;
+}
+
+
+
+/* ///////// */
+/* Body */
+/* //////// */
