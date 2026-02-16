@@ -9,6 +9,7 @@
 /* ///////////////////// */
 :root {
     --color-text:#2c2a29;
+    --font-size-h2: 3em;
 }
 
 
@@ -16,3 +17,63 @@
 /* ///////// */
 /* Body */
 /* //////// */
+body {
+    background-color: #f7f0e9;
+}
+
+header {
+    color: var(--color-text);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0.7em 2em; 
+    border-radius: 2em;
+    background-color: rgba(255, 200, 210, 0.929);
+    border: 0.1em solid rgba(225, 183, 190, 0.53);
+    position: fixed;
+    top: 1em;
+    left: 0;
+    right: 0;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+nav a {
+    margin: 0 0.4em;
+    color: #2c2a29;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 4em;
+    margin: 0 5em 0 5em;
+}
+
+
+.aboutme {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 10em; 
+    margin: 0 10em;
+}
+
+.aboutme img {
+    width: 14em;
+    height: 18em;
+}
+
+.aboutme h2 {
+    font-size: var(--font-size-h2);
+}
+
+.bio {
+    width: 40em;
+}
